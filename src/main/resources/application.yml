@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: sf-rest-library
+          uri: http://localhost:8085
+          predicates:
+            - Path=/api/v1/*
+# TROUBLESHOOTING
+#      httpserver:
+#        wiretap: true
+#      httpclient:
+#        wiretap: true
+#logging:
+#  level:
+#    root: error
+#    reactor.netty: trace
+#    org.springframework.cloud.gateway: trace
+#    org.springframework.http.server.reactive: trace
