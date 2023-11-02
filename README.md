@@ -1,7 +1,7 @@
 # Library Gateway
 Spring Cloud gateway that routes the **sf-rest-library** microservices.
 
-#### Microservices
+### Services
 <table>
     <tr>
         <th style="text-align:left">Name</th>
@@ -19,6 +19,24 @@ Spring Cloud gateway that routes the **sf-rest-library** microservices.
         <td>Library management service</td>
     </tr>
 </table>
+
+### Technologies
+
+- Java
+- Spring Boot
+- Spring Cloud
+- Spring Security
+- Maven
+- Docker
+
+### Build and Run
+
+ ```
+   $ git clone 
+   $ cd sf-rest-library-gateway
+   $ ./mvnw clean install
+   $ docker-compose up
+ ```
 
 ## References
 * [spriing-cloud](http://projects.spring.io/spring-cloud/)
